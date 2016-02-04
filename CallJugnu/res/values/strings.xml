@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CallJugnu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_terms_screen">TermsScreen</string>
+    <string name="title_activity_enquiry_screen">EnquiryScreen</string>
+    <string name="title_activity_taste_buds">TasteBuds</string>
+    <string name="title_activity_sip_sap">SipSap</string>
+    <string name="title_activity_blow_off">BlowOff</string>
+    <string name="title_activity_rapid_action">RapidAction</string>
+    <string name="title_activity_celebration">Celebration</string>
+    <string name="title_activity_combo">Combo</string>
+    <string name="title_activity_munching">Munching</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_place_order">PlaceOrder</string>
+
+</resources>

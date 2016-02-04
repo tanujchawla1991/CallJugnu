@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".TermsScreen" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:gravity="center_horizontal"
+        android:text="Minimum Order \u20B9 300\nDelivery Charges \u20B9 50"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00ff00" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:text="Delivery Time :\n9 P.M. to 4 A.M."
+        android:textColor="#ffff00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/google" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:text="Click Here To Get Started"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff00"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/twitter" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="www.calljugnu.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:text="We run our services in areas closer\nto Koramangla, Indira nagar &amp;\nMarathalli in Bangalore"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toLeftOf="@+id/textView1"
+        android:src="@drawable/lamp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:src="@drawable/lamp" />
+
+</RelativeLayout>

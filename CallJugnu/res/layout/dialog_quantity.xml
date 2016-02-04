@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="140dp"
+    android:background="@drawable/background_dialog" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:text="Enter Quantity : "
+        android:textColor="#00ff00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+        <requestFocus />
+    </TextView>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_horizontal"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff00"
+        android:singleLine="true"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:cursorVisible="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Cancel"
+        android:background="@drawable/background_dialog"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="OK"
+        android:background="@drawable/background_dialog"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+</RelativeLayout>
